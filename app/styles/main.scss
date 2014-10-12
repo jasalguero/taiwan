@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+@import "_fonts.scss";
+// bower:scss
+// endbower
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+html {
+  height: 100%;
+}
+
+/* Space out content a bit */
+body {
+  color: #E0E0E0;
+  padding: 30px;
+  overflow: hidden;
+  /** To edit this background, follow this link:
+    http://svgeneration.com/generate/Eave-Light Tiles?size=82&fill=4c4f57&edge-size=3&edge=292a33&shadow=27272b&
+    */
+  background-color: #4c4f57;
+  background-image:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMDAlJyBoZWlnaHQ9JzEwMCUnPgoJPGRlZnM+CgkJPHBhdHRlcm4gaWQ9J3RpbGUnIHBhdHRlcm5Vbml0cz0ndXNlclNwYWNlT25Vc2UnIHdpZHRoPSc4MicgaGVpZ2h0PSc4Micgdmlld0JveD0nMCAwIDUwIDUwJz4KCQkJPGxpbmUgeDE9JzEnIHkxPScwJyB4Mj0nNTEnIHkyPSc1MCcgc3Ryb2tlPScjMjcyNzJiJyBzdHJva2Utd2lkdGg9JzMnLz4KCQkJPGxpbmUgeDE9JzQ5JyB5MT0nMCcgeDI9Jy0xJyB5Mj0nNTAnIHN0cm9rZT0nIzI3MjcyYicgc3Ryb2tlLXdpZHRoPSczJy8+CgkJCTxsaW5lIHgxPSc1MCcgeTE9JzAnIHgyPScwJyB5Mj0nNTAnIHN0cm9rZT0nIzI5MmEzMycgc3Ryb2tlLXdpZHRoPSczJy8+CgkJCTxsaW5lIHgxPScwJyB5MT0nMCcgeDI9JzUwJyB5Mj0nNTAnIHN0cm9rZT0nIzI5MmEzMycgc3Ryb2tlLXdpZHRoPSczJy8+CgkJPC9wYXR0ZXJuPgoJCTxyYWRpYWxHcmFkaWVudCBpZD0nbCcgY3g9JzUwJScgY3k9JzIwMCUnIGZ5PScwJyByPScyMDElJz4KCQkJPHN0b3Agb2Zmc2V0PScwJScgc3R5bGU9J3N0b3AtY29sb3I6I2ZmZjsgc3RvcC1vcGFjaXR5Oi4xOycgLz4KCQkJPHN0b3Agb2Zmc2V0PScxMCUnIHN0eWxlPSdzdG9wLWNvbG9yOiMwMDA7IHN0b3Atb3BhY2l0eTowLjE7JyAvPgoJCQk8c3RvcCBvZmZzZXQ9JzMwJScgc3R5bGU9J3N0b3AtY29sb3I6IzAwMDsgc3RvcC1vcGFjaXR5OjAuMzsnIC8+CgkJCTxzdG9wIG9mZnNldD0nOTAlJyBzdHlsZT0nc3RvcC1jb2xvcjojMDAwOyBzdG9wLW9wYWNpdHk6MC41NTsnIC8+CgkJCTxzdG9wIG9mZnNldD0nMTAwJScgc3R5bGU9J3N0b3AtY29sb3I6IzAwMDsgc3RvcC1vcGFjaXR5Oi42JyAvPgoJCTwvcmFkaWFsR3JhZGllbnQ+Cgk8L2RlZnM+Cgk8cmVjdCBmaWxsPScjNGM0ZjU3JyB3aWR0aD0nMTAwJScgaGVpZ2h0PScxMDAlJy8+Cgk8cmVjdCBmaWxsPSd1cmwoI3RpbGUpJyB3aWR0aD0nMTAwJScgaGVpZ2h0PScxMDAlJy8+Cgk8cmVjdCB3aWR0aD0nMTAwJScgaGVpZ2h0PScxMDAlJyBmaWxsPSd1cmwoI2wpJy8+Cjwvc3ZnPg==');
+}
+
+.container {
+  margin: 6em auto;
+  width: 6em;
+}
+
+.title {
+  margin-top: 6em;
+  display: none;
+  font-family: 'League Gothic';
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title img {
+/*  display: block;
+  margin-left: auto;
+  margin-right: auto*/
+}
+
+.step-1 {
+   width: 610px;
+}
+
+.step-2 {
+  width: 855px;
+}
+
+.step-3 {
+  width: 393px;
+}
+
+.step-4 {
+  position: relative;
+  overflow: hidden;
+  height: 202px;
+  width: 800px;
+}
+
+.view-box {
+  position: relative;
+  height: 202px;
+  float: left;
+}
+
+.view-box ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
